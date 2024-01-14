@@ -1,0 +1,6 @@
+index	lemma	rm elements
+model	"CountVectorizer(strip_accents='unicode',
+                tokenizer=<__main__.LemmaTokenizer object at 0x7f48c5ab8d00>)"	CountVectorizer(preprocessor=<function preprocess at 0x7f48c5e3caf0>)
+naiveBayes	0.80852	0.81408
+logisticRegression	0.87524	0.8662
+SVM	0.8538	0.84892

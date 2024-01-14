@@ -1,0 +1,5 @@
+index	default	rm frequent	bigram	uni and bigram	trigram	uni to trigram	bi to trigram
+model	CountVectorizer()	CountVectorizer(max_df=0.9)	CountVectorizer(ngram_range=(2, 2))	CountVectorizer(ngram_range=(1, 2))	CountVectorizer(ngram_range=(3, 3))	CountVectorizer(ngram_range=(1, 3))	CountVectorizer(ngram_range=(2, 3))
+naiveBayes	0.81356	0.81484	0.87016	0.85692	0.87284	0.87296	0.88032
+logisticRegression	0.86392	0.86264	0.88028	0.89644	0.84256	0.89828	0.87948
+SVM	0.84576	0.8448	0.87576	0.8912	0.8434	0.89624	0.88128
